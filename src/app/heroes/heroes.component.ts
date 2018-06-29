@@ -16,6 +16,7 @@ export class HeroesComponent implements OnInit {
     this.getHeroes();
   }
 
+  // todo: remove dead code
   onSelect(hero: Hero): void {
     this.hero = hero;
   }
